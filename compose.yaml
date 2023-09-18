@@ -1,0 +1,7 @@
+services:
+  l3mdevcms:
+    image: l3m-dev-cms:latest
+    container_name: strappi
+    env_file: .env
+    ports:
+      - "8080:8080"
